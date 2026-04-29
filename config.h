@@ -70,7 +70,7 @@ static const struct arg args[] = {
 	{ hostname, "%s |",  NULL },
 	{ cpu_perc, " CPU %s%% |",  NULL },
 	{ ram_perc, " RAM %s%% |",  NULL },
-	{ swap_perc, " SWAP %s%% |",  NULL },
+/*	{ swap_perc, " SWAP %s%% |",  NULL },*/
 	{ up, " WIFI %s |", "wlp9s0"},
 	{ run_command, " VOL %s%% |", "pamixer --get-volume"},
 	{ uptime, " UPTIME %s |", NULL },
