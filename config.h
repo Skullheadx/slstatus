@@ -68,6 +68,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ username, " %s@",  NULL },
 	{ hostname, "%s |",  NULL },
+	{ run_command, " %s |", "mpc"},
 	{ cpu_perc, " CPU %s%% |",  NULL },
 	{ ram_perc, " RAM %s%% |",  NULL },
 /*	{ swap_perc, " SWAP %s%% |",  NULL },*/
