@@ -66,8 +66,8 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ username, " %s@",  NULL },
-	{ hostname, "%s |",  NULL },
+/*	{ username, " %s@",  NULL },
+	{ hostname, "%s |",  NULL }, */
 /*	{ run_command, " MUSIC: %s |", "mpc current"},*/
 	{ run_command, " MUSIC: %s |", "scrolling-title"},
 	{ cpu_perc, " CPU %s%% |",  NULL },
